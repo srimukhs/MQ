@@ -2,12 +2,7 @@ package mq;
 
 import java.io.IOException;
 
-/*
-MQSampleGet - uses MQ Base Java classes V6
-It is a trimmed down version of MQSample (without the Put portion) from:
-  C:\Program Files\IBM\WebSphere MQ\tools\wmqjava\samples
-  
-*/
+
 
 import com.ibm.mq.MQException;
 import com.ibm.mq.MQGetMessageOptions;
