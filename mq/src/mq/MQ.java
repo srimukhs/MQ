@@ -22,10 +22,7 @@ import com.ibm.mq.constants.MQConstants;
  */
 public class MQ {
 
-  // code identifier
-  static final String sccsid = "@(#) samples/wmqjava/MQSample.java, jmscc.samples, k700, k700-001-081120 1.4.1.2 08/10/01 12:02:02";
-
-  // define the name of the QueueManager
+ 
   private static final String qManager = "TestQM";
   // and define the name of the Queue
   private static final String qName = "order1";
