@@ -17,14 +17,12 @@ import com.ibm.mq.MQQueue;
 import com.ibm.mq.MQQueueManager;
 import com.ibm.mq.constants.MQConstants;
 
-/**
- * Simple example program - get
- */
+
 public class MQ {
 
  
   private static final String qManager = "TestQM";
-  // and define the name of the Queue
+  
   private static final String qName = "order1";
   static String msg = "Hello World, WelCome to MQ.";
   static String msg1 = "Hello World";
